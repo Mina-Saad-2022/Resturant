@@ -1,0 +1,70 @@
+/* ! start body style */ 
+
+   .image_separator {
+       height:21vw;
+       background-image: url("./img/about-05.jpg");
+       background-position: center center;
+       background-size: cover;
+   }
+   .link_slider a:hover{
+       color: #27ae60;
+   }
+   .image_card{
+       position: relative;
+   }
+   .read{
+       position: relative;
+       top: 45%;
+       left: 44%;
+       transform:  translate(-50% ,-50%) ;
+       -webkit-transform:  translate(-50% ,-50%) ;
+       -moz-transform:  translate(-50% ,-50%) ;
+       -ms-transform:  translate(-50% ,-50%) ;
+       -o-transform:  translate(-50% ,-50%) ;
+       color: #000;
+}
+   .overlay{
+    width: 50%;
+    height: 97%;
+    position: absolute;
+    top: 4px;
+    bottom: 0;
+    left: 84px;
+    right: 0;
+    opacity: 0;
+    background: rgba(247, 247, 247, 0.5);
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.image_card:hover .overlay{
+    opacity: 1;
+}
+   .icone_1:hover i ,.icone_1:hover{
+       color: #0d6efd;
+   }
+   .icone_2:hover i ,.icone_2:hover{
+    color: #198754;
+}
+.icone_3:hover i ,.icone_3:hover{
+    color: #dc3545;
+}
+/* ! end body style */
+
+@media (max-width: 576px){
+  .overlay{
+      left: 25%;
+  }
+}
+
+
+@media (min-width: 992px) and  (max-width: 1366px){
+    .title-img h4{
+        font-size: 2vw !important;
+    }
+    .title-img h2 {
+        font-size: 2.5vw !important;
+    }
+}

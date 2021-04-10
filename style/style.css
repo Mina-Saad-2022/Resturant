@@ -1,0 +1,157 @@
+/* !start General colors style */
+.c-white {
+  color: #fff;
+}
+.c-gray {
+  color: #474646;
+}
+.c-blue {
+  color: #7a7cfd;
+}
+.c-xblue {
+  color: #0004ff;
+}
+.c-green{
+  color: #08b93d;
+}
+.c-orange{
+  color: #fa0293c5;
+}
+.c-black{
+  color: #000;
+}
+/* !end General colors style */
+.padding-1vw{
+  padding: 1vw;
+}
+/* !start General background style */
+.bd-white {
+  background-color: #fff;
+}
+.bg-gray {
+  background-color: #252424;
+}
+.bg-green {
+  background-color: #27ae60;
+}
+.bg-xgray {
+  background-color: #7a7979;
+}
+/* !end General background style */
+
+/* !start General fonts style */
+@font-face {
+  font-family: font_1;
+  src: url("/style/fonts/font-1/Amiri-Bold.ttf");
+}
+.font_1{
+  font-family: font_1;
+}
+
+@font-face {
+  font-family: font_2;
+  src: url("/style/fonts/font-2/Anton-Regular.ttf");
+}
+.font_2{
+  font-family: font_2;
+}
+
+@font-face {
+  font-family: font_3;
+  src: url("/style/fonts/font-3/Lobster-Regular.ttf");
+}
+.font_3{
+  font-family: font_3;
+}
+@font-face {
+  font-family: font_4;
+  src: url("/style/fonts/font-4/MarkaziText-VariableFont_wght.ttf");
+}
+.font_4{
+  font-family: font_4;
+}
+/* !end General fonts style */
+
+/* ! start head style */
+.head {
+  background: url(./img/simple-house-01.jpg)
+    no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+.hvr-underline-from-left:before {
+  background-color: #fff;
+  margin-top: 25% !important;
+}
+.link-head:hover {
+  color: #fff;
+  
+}
+
+.links-head a{
+  font-size: 1.5vw;
+}
+/* ! end head style */
+
+/* ! start slider style */
+.buttons-slider  {
+  margin-left: 9px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.buttons-slider:hover {
+  background-color: #097c2c;
+  color: #fff;
+}
+.title-slider  img{
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  
+}
+.title-slider:hover img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+/* ! end slider style */
+@media (min-width : 355px)  and (max-width: 575px){
+  .font_normal{
+    font-size: 60% !important;
+  }
+  .font_bold{
+    font-size: 66% !important ;
+  }
+  .font_xlarg{
+    font-size: 85% !important ;
+  }
+  .font_larg{
+    font-size: 74% !important ;
+  }
+ .font_small{
+   font-size: small;
+ }
+}
+@media (min-width : 993px) and (max-width: 1400px){
+  h5, .h5 {
+    font-size: 1rem !important;
+}
+}
+@media (min-width: 1400px){
+  h5, .h5 , h6{
+    font-size: 1.25rem !important;
+}
+}
+@media (min-width : 576px) and (max-width: 767px){
+.link-head {
+  font-size: 3vw !important;
+}
+}
+
