@@ -1,4 +1,4 @@
-#Resturant project
+# Resturant project
 
 In this project i use HTML and CSS only
 
